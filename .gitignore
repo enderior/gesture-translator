@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Данные и веса — не коммитим
+ml/data/*
+!ml/data/.gitkeep
+ml/models/*
+!ml/models/.gitkeep
+backend/models/*
+!backend/models/.gitkeep
+*.mp4
+*.webm
+*.mov
+*.h5
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Секреты
+.env
+*.env
+config.local.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Node (если пригодится)
+node_modules/
+
+# Логи
+*.log
