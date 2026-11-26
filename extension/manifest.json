@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Gesture Translator (Firefox)",
+    "version": "0.2",
+    "description": "Перевод жестов в текст",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "gesture-translator@yourdomain.com"
+        }
+    },
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["http://localhost:8000/*"],
+    "action": {},
+    "background": {
+        "scripts": ["background/background.js"]
+    }
+}

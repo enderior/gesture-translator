@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Gesture Translator (Chrome)",
+    "version": "0.2",
+    "description": "Перевод жестов в текст",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["http://localhost:8000/*"],
+    "action": {},
+    "background": {
+        "service_worker": "background/background.js"
+    }
+}
